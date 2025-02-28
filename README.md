@@ -2,9 +2,13 @@
 My neovim configuration.
 
 ## Setup
-```bash
-if [ -d ~/.config/nvim ]; then
-  rm -rf ~/.config/nvim
-fi
-git clone https://github.com/Mopsgamer/neovim-init.git ~/.config/nvim
+
+Linux
+```sh
+bash <(curl -fsSL https://raw.githubusercontent.com/Mopsgamer/neovim-init/main/install.sh)
+```
+
+Windows
+```ps
+irm "https://raw.githubusercontent.com/Mopsgamer/neovim-init/main/install.ps1" | iex
 ```
